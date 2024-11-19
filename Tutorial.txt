@@ -1,0 +1,24 @@
+working files unde editam files
+Staging e ca si cum as tine pixul in mana pana sunt pregatita sa   adaug in histoy books
+Commit intrare in history books
+
+commit -m "first commit -committing all files to repository
+
+not ready to commit=>
+
+git restore --staged index.htm => asta va muta inapoi in working files
+
+git commit -a -m "updated text to free range"
+
+git commit: creaza un commit
+
+-a(scurt pentru -all):toate fisierele care au fost track-uite(adaugate la Git cu git add) si care au fost modificate vor fi automat adaugate la commit
+Nota:fisierele noi(care au fost adaugate cu git add) nu vor fi incluse
+
+-m(scurt pt --message) permite adaugarea unui mesaj descriptive pentru commit direct din linia de comanda, fara  a deschide un editor separate, in cazul meu mesajul este "updated text to free range"
+
+comanda combina git add(pt fisierele modificate, doar cele track uite) si git commit
+mesajul commitului "updated text to free range" este o descriere a schimbarilor facute
+
+git restore "numele"
+
